@@ -9,8 +9,8 @@
     --layout-mobile: 375px;
     --layout-desktop: 1440px;
 
-    --color-gradient-option1: hsl(273, 75%, 66%);
-    --color-gradient-option2: hsl(240, 73%, 65%);
+    --color-gradient-option1: hsl(273, 75%, 66%); /* HEX #af67e9 */
+    --color-gradient-option2: hsl(240, 73%, 65%); /* HEX #6565e7 */
 
     --color-text-option1: hsl(238, 29%, 16%);
     --color-text-option2: hsl(14, 88%, 65%);
