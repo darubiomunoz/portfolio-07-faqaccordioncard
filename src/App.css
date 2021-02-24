@@ -2,7 +2,16 @@
   width: 85%;
   height: 70%;
   align-self: flex-end;
+  position: relative;
+  display: flex;
+  justify-content: center;
   margin-bottom: var(--margin-base);
   border-radius: var(--border-radius);
   background-color: var(--color-divider-option1);
+}
+
+.app__illustration {
+  width: 60%;
+  position: absolute;
+  top: calc(-145.58px / 2);
 }
