@@ -1,0 +1,31 @@
+.illustration {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+
+.illustration__box,
+.illustration__base,
+.illustration__shadow {
+    position: absolute;
+}
+
+.illustration__box {
+    z-index: 300;
+    top: -38px;
+    left: 42px;
+    width: 28%;
+}
+.illustration__base {
+    z-index: 200;
+    top: -100px;
+    width: 70%;
+}
+.illustration__shadow {
+    z-index: 100;
+    top: 5px;
+    width: 70%;
+}
