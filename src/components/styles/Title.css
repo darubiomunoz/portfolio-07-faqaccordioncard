@@ -1,5 +1,6 @@
 .title {
-    height: fit-content;
-    margin-top: 13.5rem;
+    position: relative;
+    margin-top: 12rem;
     font-size: var(--font-size-title);
+    color: var(--color-text-option1)
 }

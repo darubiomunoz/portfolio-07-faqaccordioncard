@@ -1,11 +1,15 @@
 .app {
   width: 85%;
-  height: 70%;
-  align-self: flex-end;
+  height: auto;
+  min-height: 75%;
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
   margin-bottom: var(--margin-base);
+  padding-bottom: 5rem;
   border-radius: var(--border-radius);
   background-color: var(--color-divider-option1);
 }
