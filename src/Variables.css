@@ -2,9 +2,10 @@
     --font-family-kumbh: 'Kumbh Sans', sans-serif;
 
     --font-weight-normal: 400;
-    --font-weight-bold: 700;
+    --font-weight-bold: 900;
 
     --font-size-base: 1.2rem;
+    --font-size-base-active: 1.3rem;
     --font-size-title: 3rem;
 
     --layout-mobile: 375px;

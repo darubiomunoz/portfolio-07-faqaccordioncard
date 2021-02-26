@@ -1,6 +1,7 @@
 .faq {
     width: 87%;
     margin-top: 1rem;
+    flex: 1;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -24,6 +25,7 @@
     display: flex;
     justify-content: space-between;
     font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
 }
 
 .faq__icon {
@@ -34,4 +36,9 @@
 .faq__answer {
     margin-top: 1.5rem;
     font-size: 1rem;
+}
+
+.active {
+    font-size: var(--font-size-base-active);
+    font-weight: 900;
 }
