@@ -4,40 +4,41 @@ import './styles/FAQ.css';
 import data from '../data.json';
 import arrow from '../assets/images/icon-arrow-down.svg';
 
-
 const FAQ = () => {
-    const [ active, setActive ] = useState(false);
-
-    const activation = () => {
-        const question = document.querySelector('.faq__question');
-        if(active) {
-            question.className = 'faq__question'
-        } else if(!active) {
-            question.className += ' active';
-        }
-    }
+    const [ condition, setCondition ] = useState({ active: false, id: [] });
 
     const handleClick = event => {
-        if(active) {
-            setActive(false);
-            activation();
-        } else if(!active) {
-            setActive(true);
-            activation();
+        const faq = document.querySelector('.faq');
+        const item = faq.childNodes[event.target.id];
+        const question = item.querySelector('.faq__question');
+        //event.target.id
+
+        if(condition.active) {
+            setCondition({
+                active: false,
+                id: []
+            });
+            question.classList.remove('active');
+        } else if(!condition.active) {
+            setCondition({
+                active: true,
+                id: event.target.id
+            });
+            question.classList.add('active');
         }
     }
 
     return (
-        <div className="faq">
-            { data.map( (data, i) => {
+        <ul className="faq">
+            { data.map( data => {
                 return (
-                    <div key={i} className="faq__item" onClick={handleClick}>
-                        <h2 className="faq__question">{data.question}<img className="faq__icon" src={arrow} alt="arrow icon to show the answer"/></h2>
-                        {active && <p className="faq__answer">{data.answer}</p>}
-                    </div>
+                    <li id={data.id} key={data.id} className="faq__item" onClick={handleClick}>
+                        <h2 className="faq__question" onClick={handleClick}>{data.question}<img className="faq__icon" src={arrow} alt="arrow icon to show the answer"/></h2>
+                        {(condition.active && condition.id.includes(data.id)) && <p className="faq__answer">{data.answer}</p>}
+                    </li>
                 )})
             }
-        </div>
+        </ul>
     );
 }
 
