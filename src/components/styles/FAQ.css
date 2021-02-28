@@ -12,3 +12,13 @@
     color: var(--color-text-option4);
 }
 
+@media (min-width: 1025px) {
+    .faq {
+        height: auto;
+        margin-top: 2.5rem;
+        justify-self: start;
+        align-self: flex-start;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+}

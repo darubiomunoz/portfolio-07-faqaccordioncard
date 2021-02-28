@@ -196,5 +196,30 @@
 }
 
 @media (min-width: 1025px) {
-    
+    .illustration {
+        position: relative;
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+    .illustration__box,
+    .illustration__base,
+    .illustration__shadow {
+        position: relative;
+    }
+    .illustration__box {
+        position: fixed;
+        top: 425px;
+        left: 75px;
+        width: 16%;
+    }
+    .illustration__base {
+        top: 25px;
+        left: 70px;
+        width: 100%;
+    }
+    .illustration__shadow {
+        top: 200px;
+        left: -800px;
+        width: 250%;
+    }
 }

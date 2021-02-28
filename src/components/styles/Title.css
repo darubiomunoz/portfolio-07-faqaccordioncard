@@ -46,3 +46,13 @@
         margin-top: 29rem;
     }
 }
+
+@media (min-width: 1025px) {
+    .title {
+      align-self: flex-end;
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      margin: 0;
+      margin-top: 15rem;
+    }
+  }
