@@ -69,7 +69,7 @@ This component is developed with:
 * [React](https://reactjs.org/) _version: 17.0.1_
 * [React DOM](https://reactjs.org/docs/react-dom.html) _version: 17.0.1_
 * [React scripts](https://create-react-app.dev/docs/available-scripts/) _version: 4.0.3_
-* [Normalize](https://necolas.github.io/normalize.css/) _version: 11.0.0_
+* [Normalize](https://necolas.github.io/normalize.css/) _version: 8.0.1_
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript) _version: ECMAScript 6+_
 
 <!-- GETTING STARTED -->
@@ -79,17 +79,17 @@ If you want to check out the component the component deployed with github pages 
 
 * Link to the project:
   ```sh
-  https://darubiomunoz.github.io/portfolio-06-profilecardcomponent/]
+  https://darubiomunoz.github.io/portfolio-07-faqaccordioncard
   ```
 
 ### Installation  :exclamation:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/darubiomunoz/portfolio-06-profilecardcomponent.git
+   git clone https://github.com/darubiomunoz/portfolio-07-faqaccordioncard.git
    ```
    ```sh
-   git clone git@github.com:darubiomunoz/portfolio-06-profilecardcomponent.git
+   git clone git@github.com:darubiomunoz/portfolio-07-faqaccordioncard.git
    ```
 
 2. Run the react development server:
@@ -99,7 +99,7 @@ If you want to check out the component the component deployed with github pages 
 <!-- USAGE EXAMPLES -->
 ## 3. Usage :star2:
 
-Feel free to download the code if you need a template for a profile component and modify it as you want to fit your project, just remember to install all the required dependencies to run it properly.
+Feel free to download the code if you need a template for a FAQ page and modify it as you want to fit your project, just remember to install all the required dependencies to run it properly.
 
 _For more knowledge, please refer to the [Documentation](https://reactjs.org/)_
 
@@ -131,17 +131,13 @@ Diego Rubio
 [Linkedin](https://www.linkedin.com/in/darmdev/)
 darubiomunoz@gmail.com
 
-Project Link: [https://darubiomunoz.github.io/portfolio-06-profilecardcomponent](https://darubiomunoz.github.io/portfolio-06-profilecardcomponent)
+Project Link: [https://darubiomunoz.github.io/portfolio-07-faqaccordioncard](https://darubiomunoz.github.io/portfolio-07-faqaccordioncard)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## 8. Acknowledgements :clap:
 
-* [Stiven Jimenez](https://github.com/stivenjimenez) - Thanks for answering my questions and the help!
 * [Front-end Mentor](https://www.frontendmentor.io/challenges)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-* [SASS](https://sass-lang.com/guide)
-* [SASS loader](https://www.npmjs.com/package/sass-loader)
-* [Bootstrap](https://getbootstrap.com/)
 * [React](https://reactjs.org/)
 * [React DOM](https://reactjs.org/docs/react-dom.html)
 * [React scripts](https://create-react-app.dev/docs/available-scripts/)
