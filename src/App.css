@@ -13,3 +13,15 @@
   border-radius: var(--border-radius);
   background-color: var(--color-divider-option1);
 }
+
+@media (min-width: 600px) {
+  .app {
+    margin-top: 17rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .app {
+    margin-top: 23rem;
+  }
+}

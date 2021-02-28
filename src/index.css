@@ -18,6 +18,7 @@ body {
 
 .root {
   width: inherit;
+  min-height: inherit;
   height: inherit;
   display: flex;
   justify-content: center;
