@@ -11,7 +11,11 @@ function Illustration() {
         <div className="illustration">
             <img className="illustration__box" src={box} alt="Digital illustration of a box"/>
             <img className="illustration__base" src={illustration} alt="Digital illustration of a woman looking at a computer screen"/>
-            <img className="illustration__shadow" src={shadowMobile} srcset={shadowDesktop + " 1025w"} sizes="(min-width: 1025px) 1025px" alt="Digital illustration of a shadow"/>
+            <picture className="illustration__shadow--container">
+                <source media="(min-width: 1025px)" srcset={shadowDesktop} />
+                <source media="(min-width: 0px)" srcset={shadowMobile} />
+                <img className="illustration__shadow" src={shadowMobile} alt="Digital illustration of a shadow"/>
+            </picture>
         </div>
     );
 }
