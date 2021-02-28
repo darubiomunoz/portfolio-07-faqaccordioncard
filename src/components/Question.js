@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './styles/Question.css';
 
 import data from '../data.json';
@@ -24,38 +24,33 @@ const QuestionLogic = () => {
 
         if(!active) {
             setActive(true);
-            setId([ id, number ]);
+            setId([number]);
             addActiveClassName();
             removeInvisibleClassName();
         }
-
+        
         if(active && !id.includes(number)) {
-            setId( [ id, number ]);
+            setId([...id, number]);
             addActiveClassName();
             removeInvisibleClassName();
         }
-
-        if(active && id.includes(number) && id.length > 1) {
-            /* id.splice(index, 1); */
-            setId( () =>  id.splice(index, 1) );
+        
+        if(active && id.includes(number) && id.length > 0) {
+            setId(id.filter(value => value !== number));
             removeActiveClassName();
             addInvisibleClassName();
         }
-
-        if(active && id.includes(number) && id.length === 1) {
+        
+        if(active && id.includes(number) && id.length === 0) {
             setActive(false);
-            /* id.splice(index, 1); */
-            setId( () =>  id.splice(index, 1) );
+            setId([]);
             removeActiveClassName();
             addInvisibleClassName();
         }
+        console.log(number, index, id);        
     }
 
-    useEffect( (event) => {
-        console.log('You can do it');
-    }, [id] );
-
-    return { active, id, handleClick}
+    return { handleClick }
 }
 
 const Question = () => {
