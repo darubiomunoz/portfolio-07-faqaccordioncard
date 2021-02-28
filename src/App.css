@@ -26,3 +26,9 @@
     margin-top: 23rem;
   }
 }
+
+@media (min-width: 1025px) {
+  .app {
+    display: grid;
+  }
+}

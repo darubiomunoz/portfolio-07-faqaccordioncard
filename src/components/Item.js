@@ -60,7 +60,7 @@ const QuestionLogic = () => {
     return { handleClick }
 }
 
-const Question = () => {
+const Item = () => {
     const { handleClick } = QuestionLogic();
 
     return (
@@ -79,4 +79,4 @@ const Question = () => {
     );
 }
 
-export default Question;
+export default Item;

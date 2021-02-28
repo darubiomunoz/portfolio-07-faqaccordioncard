@@ -3,7 +3,7 @@ import './App.css';
 import Illustration from './components/Illustration';
 import Title from './components/Title';
 import FAQ from './components/FAQ';
-import Question from './components/Question';
+import Item from './components/Item';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Illustration />
       <Title />
       <FAQ>
-        <Question />
+        <Item />
       </FAQ>
     </div>
   );
