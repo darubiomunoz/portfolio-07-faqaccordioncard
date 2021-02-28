@@ -40,3 +40,9 @@
         margin-top: 22rem;
     }
 }
+
+@media (min-width: 801px) and (max-width: 1024px) {
+    .title {
+        margin-top: 29rem;
+    }
+}
