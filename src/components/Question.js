@@ -16,28 +16,34 @@ const QuestionLogic = () => {
         const item = faq.childNodes[number];
         const question = item.querySelector('.faq__question');
         const answer = item.querySelector('.faq__answer');
+        const icon = item.querySelector('.faq__icon')
 
         const addActiveClassName = () => question.classList.add('active');
         const removeActiveClassName = () => question.classList.remove('active');
         const addInvisibleClassName = () => answer.classList.add('invisible');
         const removeInvisibleClassName = () => answer.classList.remove('invisible');
+        const addRotateClassName = () => icon.classList.add('rotate');
+        const removeRotateClassName = () => icon.classList.remove('rotate');
 
         if(!active) {
             setActive(true);
             setId([number]);
             addActiveClassName();
+            addRotateClassName();
             removeInvisibleClassName();
         }
         
         if(active && !id.includes(number)) {
             setId([...id, number]);
             addActiveClassName();
+            addRotateClassName();
             removeInvisibleClassName();
         }
         
         if(active && id.includes(number) && id.length > 0) {
             setId(id.filter(value => value !== number));
             removeActiveClassName();
+            removeRotateClassName();
             addInvisibleClassName();
         }
         
@@ -45,6 +51,7 @@ const QuestionLogic = () => {
             setActive(false);
             setId([]);
             removeActiveClassName();
+            removeRotateClassName();
             addInvisibleClassName();
         }
         console.log(number, index, id);        
