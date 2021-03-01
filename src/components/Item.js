@@ -24,12 +24,18 @@ const QuestionLogic = () => {
         const removeInvisibleClassName = () => answer.classList.remove('invisible');
         const addRotateClassName = () => icon.classList.add('rotate');
         const removeRotateClassName = () => icon.classList.remove('rotate');
+        const setAriaLabelMessageInactive = () => icon.setAttribute('aria-label', 'Press enter to show answer');
+        const setAriaLabelMessageActive = () => icon.setAttribute('aria-label', 'Press enter to hide answer');
+        const addTabindexAttr = () => answer.setAttribute('tabindex', '0');
+        const removeTabindexAttr = () => answer.removeAttribute('tabindex');
 
         if(!active) {
             setActive(true);
             setId([number]);
             addActiveClassName();
             addRotateClassName();
+            addTabindexAttr();
+            setAriaLabelMessageActive();
             removeInvisibleClassName();
         }
         
@@ -37,6 +43,8 @@ const QuestionLogic = () => {
             setId([...id, number]);
             addActiveClassName();
             addRotateClassName();
+            addTabindexAttr();
+            setAriaLabelMessageActive();
             removeInvisibleClassName();
         }
         
@@ -44,6 +52,8 @@ const QuestionLogic = () => {
             setId(id.filter(value => value !== number));
             removeActiveClassName();
             removeRotateClassName();
+            removeTabindexAttr();
+            setAriaLabelMessageInactive();
             addInvisibleClassName();
         }
         
@@ -52,6 +62,8 @@ const QuestionLogic = () => {
             setId([]);
             removeActiveClassName();
             removeRotateClassName();
+            removeTabindexAttr();
+            setAriaLabelMessageInactive();
             addInvisibleClassName();
         }
         console.log(number, index, id);        
@@ -68,9 +80,9 @@ const Item = () => {
             {
                 data.map( data => {
                     return (
-                        <li key={data.id} className="faq__item">
-                            <h2 id={data.id} className="faq__question" onClick={handleClick}>{data.question}<img id={data.id} className="faq__icon" src={arrow} alt="arrow icon to show the answer"/></h2>
-                            <p className="faq__answer invisible">{data.answer}</p>
+                        <li key={data.id} className="faq__item" tabindex="-1">
+                            <h2 id={data.id} className="faq__question" tabindex="0" onClick={handleClick} onKeyPress={handleClick}>{data.question}<img id={data.id} className="faq__icon" src={arrow} alt="Press enter to show answer"/></h2>
+                            <p className="faq__answer invisible" aria-live="off">{data.answer}</p>
                         </li>
                     )}
                 )
