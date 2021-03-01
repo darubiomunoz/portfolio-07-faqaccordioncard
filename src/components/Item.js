@@ -81,7 +81,7 @@ const Item = () => {
                 data.map( data => {
                     return (
                         <li key={data.id} className="faq__item" tabindex="-1">
-                            <h2 id={data.id} className="faq__question" tabindex="0" onClick={handleClick} onKeyPress={handleClick}>{data.question}<img id={data.id} className="faq__icon" src={arrow} alt="Press enter to show answer"/></h2>
+                            <h2 id={data.id} className="faq__question" tabindex="0" onClick={handleClick} onKeyPress={handleClick}>{data.question}<img className="faq__icon" src={arrow} alt="Press enter to show answer"/></h2>
                             <p className="faq__answer invisible" aria-live="off">{data.answer}</p>
                         </li>
                     )}
