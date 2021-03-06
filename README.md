@@ -59,7 +59,7 @@
 
 Challenge from [frontmentor.io](https://www.frontendmentor.io/challenges) to develop a FAQ page, I chose to code this project in reactJS as base technology because in want to specialize on it. :smile:
 
-I was great to start and set up the project faster than my first project using reactJS which is great, this time I encountered different struggles to overcome like the logic behind the interaction of the dropdown, which I figured out (after long hours of researching and reading) a way of solving it manipulating the DOM, CSS's classes and the useState hook of reactJS, also I didn't want to hard-code the questions and answers so I made a local JSON file with the information to use it reactJS component and render them with a map function. Overall it was a nice challenge to expand more my skills to come up with better solutions and soe techniques to create good looking pages. :stars:
+It was great to start and set up the project faster than my first project using reactJS which is great, this time I encountered different struggles to overcome like the logic behind the interaction of the dropdown, which I figured out (after long hours of researching and reading) a way of solving it manipulating the DOM, CSS's classes and the useState hook of reactJS, also I didn't want to hard-code the questions and answers so I made a local JSON file with the information to use it reactJS component and render them with a map function. Overall it was a nice challenge to expand more my skills to come up with better solutions and soe techniques to create good looking pages. :stars:
 
 ### Built With :computer:
 
