@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-07-faqaccordioncard/static/css/main.7f5e83ce.chunk.css",
-    "main.js": "/portfolio-07-faqaccordioncard/static/js/main.868f1224.chunk.js",
-    "main.js.map": "/portfolio-07-faqaccordioncard/static/js/main.868f1224.chunk.js.map",
+    "main.css": "/portfolio-07-faqaccordioncard/static/css/main.9d3c7741.chunk.css",
+    "main.js": "/portfolio-07-faqaccordioncard/static/js/main.ba941259.chunk.js",
+    "main.js.map": "/portfolio-07-faqaccordioncard/static/js/main.ba941259.chunk.js.map",
     "runtime-main.js": "/portfolio-07-faqaccordioncard/static/js/runtime-main.ba0f63a8.js",
     "runtime-main.js.map": "/portfolio-07-faqaccordioncard/static/js/runtime-main.ba0f63a8.js.map",
     "static/js/2.88e9c3a7.chunk.js": "/portfolio-07-faqaccordioncard/static/js/2.88e9c3a7.chunk.js",
     "static/js/2.88e9c3a7.chunk.js.map": "/portfolio-07-faqaccordioncard/static/js/2.88e9c3a7.chunk.js.map",
     "index.html": "/portfolio-07-faqaccordioncard/index.html",
-    "static/css/main.7f5e83ce.chunk.css.map": "/portfolio-07-faqaccordioncard/static/css/main.7f5e83ce.chunk.css.map",
+    "static/css/main.9d3c7741.chunk.css.map": "/portfolio-07-faqaccordioncard/static/css/main.9d3c7741.chunk.css.map",
     "static/js/2.88e9c3a7.chunk.js.LICENSE.txt": "/portfolio-07-faqaccordioncard/static/js/2.88e9c3a7.chunk.js.LICENSE.txt",
     "static/media/bg-pattern-desktop.f51e07a2.svg": "/portfolio-07-faqaccordioncard/static/media/bg-pattern-desktop.f51e07a2.svg",
     "static/media/bg-pattern-mobile.55aee912.svg": "/portfolio-07-faqaccordioncard/static/media/bg-pattern-mobile.55aee912.svg",
     "static/media/icon-arrow-down.852fa301.svg": "/portfolio-07-faqaccordioncard/static/media/icon-arrow-down.852fa301.svg",
-    "static/media/illustration-box-desktop.ec1ba14b.svg": "/portfolio-07-faqaccordioncard/static/media/illustration-box-desktop.ec1ba14b.svg",
-    "static/media/illustration-woman-online-desktop.843eb114.svg": "/portfolio-07-faqaccordioncard/static/media/illustration-woman-online-desktop.843eb114.svg"
+    "static/media/illustration.0ec5a893.svg": "/portfolio-07-faqaccordioncard/static/media/illustration.0ec5a893.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ba0f63a8.js",
     "static/js/2.88e9c3a7.chunk.js",
-    "static/css/main.7f5e83ce.chunk.css",
-    "static/js/main.868f1224.chunk.js"
+    "static/css/main.9d3c7741.chunk.css",
+    "static/js/main.ba941259.chunk.js"
   ]
 }
