@@ -217,16 +217,3 @@
         left: -430px;
     }
 }
-
-@media (min-width: 1440px) {
-    .illustration__base {
-        width: 18%;
-        top: 270px;
-        left: 240px;
-    }
-    .illustration__shadow {
-        width: 80%;
-        top: -300px;
-        left: -340px;
-    }
-}
