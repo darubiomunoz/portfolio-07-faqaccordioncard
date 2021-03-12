@@ -26,8 +26,8 @@ const QuestionLogic = () => {
         const removeRotateClassName = () => icon.classList.remove('rotate');
         const setAriaLabelMessageInactive = () => icon.setAttribute('aria-label', 'Press enter to show answer');
         const setAriaLabelMessageActive = () => icon.setAttribute('aria-label', 'Press enter to hide answer');
-        const addTabindexAttr = () => answer.setAttribute('tabindex', '0');
-        const removeTabindexAttr = () => answer.removeAttribute('tabindex');
+        const addTabindexAttr = () => answer.setAttribute('tabIndex', '0');
+        const removeTabindexAttr = () => answer.removeAttribute('tabIndex');
 
         if(!active) {
             setActive(true);
@@ -80,8 +80,8 @@ const Item = () => {
             {
                 data.map( data => {
                     return (
-                        <li key={data.id} className="faq__item" tabindex="-1">
-                            <h2 id={data.id} className="faq__question" tabindex="0" onClick={handleClick} onKeyPress={handleClick}>{data.question}<img className="faq__icon" src={arrow} alt="Press enter to show answer"/></h2>
+                        <li key={data.id} className="faq__item" tabIndex="-1">
+                            <h2 id={data.id} className="faq__question" tabIndex="0" onClick={handleClick} onKeyPress={handleClick}>{data.question}<img className="faq__icon" src={arrow} alt="Press enter to show answer"/></h2>
                             <p className="faq__answer invisible" aria-live="off">{data.answer}</p>
                         </li>
                     )}
