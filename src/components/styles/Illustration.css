@@ -217,3 +217,15 @@
         left: -430px;
     }
 }
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+    .illustration__base {
+        width: 500px;
+        top: 250px;
+        left: 65px;
+    }
+    .illustration__shadow {
+        top: -450px;
+        left: -430px;
+    }
+}
