@@ -188,18 +188,7 @@
     }
 }
 
-/* @media (min-width: 1160px) {
-    .illustration__base {
-        top: 280px;
-        left: 50px;
-    }
-    .illustration__shadow {
-        top: -400px;
-        left: -350px;
-    }
-} */
-
-@media (min-width: 1160px) /* (max-height: 800px) */ {
+@media (min-width: 1160px) {
     .illustration__base {
         top: 280px;
         left: 50px;
@@ -222,7 +211,7 @@
     }
 }
 
-@media (min-width: 1500px) /* and (min-height: 1080px) */ {
+@media (min-width: 1500px) {
     .illustration__base {
         width: 27%;
         top: 330px;
