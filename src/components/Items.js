@@ -17,8 +17,6 @@ const ComponentLogic = () => {
         };
 
         if(!id.includes(number) && id.length > 0) setId([...id, number]);
-
-        console.log(event, number, id);
     }
 
     return { handleClick, id }

@@ -14,9 +14,34 @@
 
 .title {
     position: relative;
-    margin-top: 12rem;
+    margin-top: 8rem;
+    text-align: center;
     font-size: var(--font-size-title);
     color: var(--color-text-option1)
+}
+
+@media (min-width: 280px) {
+    .title {
+        margin-top: 9rem;
+    }
+}
+
+@media (min-width: 320px) {
+    .title {
+        margin-top: 10rem;
+    }
+}
+
+@media (min-width: 360px) {
+    .title {
+        margin-top: 12rem;
+    }
+}
+
+@media (min-width: 384px) {
+    .title {
+        margin-top: 12.5rem;
+    }
 }
 
 @media (min-width: 411px) {
