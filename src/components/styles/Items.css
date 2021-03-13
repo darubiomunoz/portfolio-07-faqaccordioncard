@@ -6,19 +6,22 @@
     border-bottom: 0.1rem solid var(--color-text-option4);
 }
 
-.faq__question {
-    width: 100%;
+.faq__container {
     display: flex;
     justify-content: space-between;
+}
+
+.faq__question {
+    width: 100%;
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-normal);
-    cursor: pointer;
 }
 
 .faq__icon {
     width: 1rem;
     height: 1rem;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 .faq__answer {

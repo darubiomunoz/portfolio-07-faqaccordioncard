@@ -18,14 +18,14 @@ const ComponentLogic = () => {
 
         if(!id.includes(number) && id.length > 0) setId([...id, number]);
 
-        console.log(number, id);
+        console.log(event, number, id);
     }
 
     return { handleClick, id }
 }
 
 const Items = () => {
-    const { handleClick, id} = ComponentLogic();
+    const { handleClick, id } = ComponentLogic();
 
     return (
         <React.Fragment>
@@ -33,10 +33,10 @@ const Items = () => {
                 data.map( data => {
                     return (
                         <li key={data.id} className="faq__item" tabIndex="-1">
-                            <h2 id={data.id} className={`faq__question ${id.includes(data.id) ? 'active' : ''}`} tabIndex="0" onClick={handleClick} onKeyPress={handleClick}>
-                                {data.question}
-                                <img className={`faq__icon ${id.includes(data.id) ? 'rotate' : ''}`} src={arrow} aria-label={id.includes(data.id) ? 'Press enter to hide answer' : 'Press enter to show answer'} onClick={handleClick} onKeyPress={handleClick} alt="Press enter to show answer"/>
-                            </h2>
+                            <div className="faq__container">
+                                <h2 className={`faq__question ${id.includes(data.id) ? 'active' : ''}`} tabIndex="0">{data.question}</h2>
+                                <img id={data.id} className={`faq__icon ${id.includes(data.id) ? 'rotate' : ''}`} src={arrow} tabIndex="0" aria-label={id.includes(data.id) ? 'Press enter to hide answer' : 'Press enter to show answer'} onClick={handleClick} onKeyPress={handleClick} aria-live="polite" alt="Press enter to show answer"/>
+                            </div>
                             <p className={`faq__answer ${id.includes(data.id) ? '' : 'invisible'}`} tabIndex={id.includes(data.id) ? '0' : '-1'} aria-live="off">{data.answer}</p>
                         </li>
                     )}
