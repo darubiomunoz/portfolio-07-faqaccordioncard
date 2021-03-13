@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-07-faqaccordioncard/static/css/main.7a5ca1f6.chunk.css",
-    "main.js": "/portfolio-07-faqaccordioncard/static/js/main.3ffa21a1.chunk.js",
-    "main.js.map": "/portfolio-07-faqaccordioncard/static/js/main.3ffa21a1.chunk.js.map",
+    "main.css": "/portfolio-07-faqaccordioncard/static/css/main.981faf4d.chunk.css",
+    "main.js": "/portfolio-07-faqaccordioncard/static/js/main.6f66004b.chunk.js",
+    "main.js.map": "/portfolio-07-faqaccordioncard/static/js/main.6f66004b.chunk.js.map",
     "runtime-main.js": "/portfolio-07-faqaccordioncard/static/js/runtime-main.ba0f63a8.js",
     "runtime-main.js.map": "/portfolio-07-faqaccordioncard/static/js/runtime-main.ba0f63a8.js.map",
     "static/js/2.e2bb90eb.chunk.js": "/portfolio-07-faqaccordioncard/static/js/2.e2bb90eb.chunk.js",
     "static/js/2.e2bb90eb.chunk.js.map": "/portfolio-07-faqaccordioncard/static/js/2.e2bb90eb.chunk.js.map",
     "index.html": "/portfolio-07-faqaccordioncard/index.html",
-    "static/css/main.7a5ca1f6.chunk.css.map": "/portfolio-07-faqaccordioncard/static/css/main.7a5ca1f6.chunk.css.map",
+    "static/css/main.981faf4d.chunk.css.map": "/portfolio-07-faqaccordioncard/static/css/main.981faf4d.chunk.css.map",
     "static/js/2.e2bb90eb.chunk.js.LICENSE.txt": "/portfolio-07-faqaccordioncard/static/js/2.e2bb90eb.chunk.js.LICENSE.txt",
     "static/media/bg-pattern-desktop.f51e07a2.svg": "/portfolio-07-faqaccordioncard/static/media/bg-pattern-desktop.f51e07a2.svg",
     "static/media/bg-pattern-mobile.55aee912.svg": "/portfolio-07-faqaccordioncard/static/media/bg-pattern-mobile.55aee912.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.ba0f63a8.js",
     "static/js/2.e2bb90eb.chunk.js",
-    "static/css/main.7a5ca1f6.chunk.css",
-    "static/js/main.3ffa21a1.chunk.js"
+    "static/css/main.981faf4d.chunk.css",
+    "static/js/main.6f66004b.chunk.js"
   ]
 }
