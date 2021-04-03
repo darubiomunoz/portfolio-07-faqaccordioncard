@@ -91,9 +91,9 @@
 }
 
 @media (min-width: 600px) {
-  .app {
+  .app__container {
     margin-top: 17rem;
-    margin-bottom: 17rem;
+    margin-bottom: 10rem;
   }
 
   .title {
@@ -108,7 +108,7 @@
 }
 
 @media (min-width: 768px) {
-  .app {
+  .app__container {
     margin-top: 23rem;
   }
 
