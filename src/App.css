@@ -17,9 +17,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin-top: 12rem;
+  margin-top: 11rem;
   margin-bottom: var(--margin-base);
   padding-bottom: 5rem;
   border-radius: var(--border-radius);
@@ -28,8 +28,7 @@
 
 .faq {
     width: 87%;
-    margin-top: 1rem;
-    flex: 1;
+    height: fit-content;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -43,6 +42,7 @@
 .title {
     position: relative;
     margin-top: 8rem;
+    margin-bottom: 1rem;
     text-align: center;
     font-size: var(--font-size-title);
     color: var(--color-text-option1)
@@ -66,9 +66,15 @@
   }
 }
 
-@media (min-width: 384px) {
+@media (min-width: 375px) {
   .title {
     margin-top: 12.5rem;
+  }
+}
+
+@media (min-width: 384px) {
+  .app__container{
+    margin-top: 14rem;
   }
 }
 

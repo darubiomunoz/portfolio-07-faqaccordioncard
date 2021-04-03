@@ -1,9 +1,11 @@
 .faq__item {
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
     padding: 1.5rem 0;
     border-bottom: 0.1rem solid var(--color-text-option4);
+    color: var(--color-text-option4);
 }
 
 .faq__container {
