@@ -1,4 +1,16 @@
 .app {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  background: linear-gradient(180deg, var(--color-gradient-option1) 50%, var(--color-gradient-option2) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app__container {
   width: 85%;
   height: auto;
   min-height: 75%;
@@ -28,8 +40,9 @@
 }
 
 @media (min-width: 1025px) {
-  .app {
-    width: 70%;
+  .app__container {
+    width: 814.545px;
+    height: 405.578px;
     display: grid;
     justify-self: stretch;
     align-self: stretch;
