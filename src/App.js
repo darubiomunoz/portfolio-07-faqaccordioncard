@@ -5,17 +5,19 @@ import Items from "./components/Items";
 
 function App() {
   return (
-    <div className="app">
-      <div className="app__container">
+    <main className="app">
+      <section className="app__container">
         <Illustration />
-        <ul className="faq">
-          <h1 className="title" tabIndex="0">
-            FAQ
-          </h1>
-        </ul>
-        <Items />
-      </div>
-    </div>
+        <div className="app__body">
+          <div className="faq">
+            <h1 className="title" tabIndex="0">
+              FAQ
+            </h1>
+          </div>
+          <Items />
+        </div>
+      </section>
+    </main>
   );
 }
 
